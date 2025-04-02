@@ -1,14 +1,14 @@
 import React, { useState, useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Apple, Store as PlayStore, Camera, Brain, Zap, Upload, Sparkles, Heart, LightningBolt } from 'lucide-react';
-import Image from './babe3.png';
-import MobileImage from './babe3-mobile.png';
-import BeforeAfter from './attila-before-after.webp';
-import Canard from './differentcanard.png';
-import Logo from './loveshot_logo.png';
-import MobileLogo from './fav-loveshot.png';
-import AppleLogo from './Apple_logo_black.svg';
-import PlayStoreLogo from './playstore.svg';
+import Image from '/src/babe3.png';
+import MobileImage from '/src/babe3-mobile.png';
+import BeforeAfter from '/src/attila-before-after.webp';
+import Canard from '/src/differentcanard.png';
+import Logo from '/src/loveshot_logo.png';
+import MobileLogo from '/src/fav-loveshot.png';
+import AppleLogo from '/src/Apple_logo_black.svg';
+import PlayStoreLogo from '/src/playstore.svg';
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
